@@ -1,0 +1,45 @@
+ul{
+    list-style: none;
+}
+#small{
+    font-size:large;
+}
+.padding{
+    padding-left: 1.5em;
+}
+.card-body h1{
+
+    color: black;
+
+}
+.small-padding{
+    padding-left:1em;
+    font: italic;
+}
+.hobby{
+    background-color: red;
+}
+.end{
+    font-size:large;
+    text-align:center;
+}
+.end::after{
+    width: 20%;
+    height:10em;
+    background-color: yellow;
+}
+a{
+    text-decoration: none;
+}
+.big-line::before{
+    content:"________________________________________________________________";
+    color: black;
+}
+.big-line:hover{
+    text-decoration: underline;
+    font-size: 30px;
+}
+.big-line:hover::before{
+    content:"*";
+    color: red;
+}
